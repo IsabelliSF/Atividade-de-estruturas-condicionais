@@ -86,7 +86,7 @@ if (temperatura <15) {
 
 let peso = 47;
 let altura = 1.56;
-let imc = peso/ altura*altura;
+let imc = peso/ altura^2;
 
 if (imc <18.5) {;
     console.log("Baixo peso");
